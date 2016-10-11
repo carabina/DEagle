@@ -96,7 +96,7 @@ s.homepage         = 'http://www.dataeagle.tech'
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  # s.source_files = 'DEagle/Classes/**/*'
+  s.source_files = 'DEagle/*'
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 

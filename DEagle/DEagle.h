@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char DEagleVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DEagle/PublicHeader.h>
 
-
+#import <DEagle/DE.h>

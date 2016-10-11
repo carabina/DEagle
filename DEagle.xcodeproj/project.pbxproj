@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		349002431DAD9C99007E5B5F /* DEagle.h in Headers */ = {isa = PBXBuildFile; fileRef = 349002421DAD9C99007E5B5F /* DEagle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		349002561DAD9CDB007E5B5F /* DE.h in Headers */ = {isa = PBXBuildFile; fileRef = 3490024A1DAD9CDB007E5B5F /* DE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		349002571DAD9CDB007E5B5F /* DE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3490024B1DAD9CDB007E5B5F /* DE.m */; };
+		349002581DAD9CDB007E5B5F /* DEEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3490024C1DAD9CDB007E5B5F /* DEEvent.h */; };
+		349002591DAD9CDB007E5B5F /* DEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3490024D1DAD9CDB007E5B5F /* DEEvent.m */; };
+		3490025A1DAD9CDB007E5B5F /* DELog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3490024E1DAD9CDB007E5B5F /* DELog.h */; };
+		3490025B1DAD9CDB007E5B5F /* DELog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3490024F1DAD9CDB007E5B5F /* DELog.m */; };
+		3490025C1DAD9CDB007E5B5F /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 349002501DAD9CDB007E5B5F /* NSData+GZIP.h */; };
+		3490025D1DAD9CDB007E5B5F /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 349002511DAD9CDB007E5B5F /* NSData+GZIP.m */; };
+		3490025E1DAD9CDB007E5B5F /* UIControl+DE.h in Headers */ = {isa = PBXBuildFile; fileRef = 349002521DAD9CDB007E5B5F /* UIControl+DE.h */; };
+		3490025F1DAD9CDB007E5B5F /* UIControl+DE.m in Sources */ = {isa = PBXBuildFile; fileRef = 349002531DAD9CDB007E5B5F /* UIControl+DE.m */; };
+		349002601DAD9CDB007E5B5F /* UIStoryboardSegue+DE.h in Headers */ = {isa = PBXBuildFile; fileRef = 349002541DAD9CDB007E5B5F /* UIStoryboardSegue+DE.h */; };
+		349002611DAD9CDB007E5B5F /* UIStoryboardSegue+DE.m in Sources */ = {isa = PBXBuildFile; fileRef = 349002551DAD9CDB007E5B5F /* UIStoryboardSegue+DE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3490023F1DAD9C99007E5B5F /* DEagle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DEagle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		349002421DAD9C99007E5B5F /* DEagle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEagle.h; sourceTree = "<group>"; };
 		349002441DAD9C99007E5B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3490024A1DAD9CDB007E5B5F /* DE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DE.h; sourceTree = "<group>"; };
+		3490024B1DAD9CDB007E5B5F /* DE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DE.m; sourceTree = "<group>"; };
+		3490024C1DAD9CDB007E5B5F /* DEEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEEvent.h; sourceTree = "<group>"; };
+		3490024D1DAD9CDB007E5B5F /* DEEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEEvent.m; sourceTree = "<group>"; };
+		3490024E1DAD9CDB007E5B5F /* DELog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DELog.h; sourceTree = "<group>"; };
+		3490024F1DAD9CDB007E5B5F /* DELog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DELog.m; sourceTree = "<group>"; };
+		349002501DAD9CDB007E5B5F /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		349002511DAD9CDB007E5B5F /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
+		349002521DAD9CDB007E5B5F /* UIControl+DE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DE.h"; sourceTree = "<group>"; };
+		349002531DAD9CDB007E5B5F /* UIControl+DE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DE.m"; sourceTree = "<group>"; };
+		349002541DAD9CDB007E5B5F /* UIStoryboardSegue+DE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+DE.h"; sourceTree = "<group>"; };
+		349002551DAD9CDB007E5B5F /* UIStoryboardSegue+DE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+DE.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +70,18 @@
 		349002411DAD9C99007E5B5F /* DEagle */ = {
 			isa = PBXGroup;
 			children = (
+				3490024A1DAD9CDB007E5B5F /* DE.h */,
+				3490024B1DAD9CDB007E5B5F /* DE.m */,
+				3490024C1DAD9CDB007E5B5F /* DEEvent.h */,
+				3490024D1DAD9CDB007E5B5F /* DEEvent.m */,
+				3490024E1DAD9CDB007E5B5F /* DELog.h */,
+				3490024F1DAD9CDB007E5B5F /* DELog.m */,
+				349002501DAD9CDB007E5B5F /* NSData+GZIP.h */,
+				349002511DAD9CDB007E5B5F /* NSData+GZIP.m */,
+				349002521DAD9CDB007E5B5F /* UIControl+DE.h */,
+				349002531DAD9CDB007E5B5F /* UIControl+DE.m */,
+				349002541DAD9CDB007E5B5F /* UIStoryboardSegue+DE.h */,
+				349002551DAD9CDB007E5B5F /* UIStoryboardSegue+DE.m */,
 				349002421DAD9C99007E5B5F /* DEagle.h */,
 				349002441DAD9C99007E5B5F /* Info.plist */,
 			);
@@ -59,6 +95,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349002601DAD9CDB007E5B5F /* UIStoryboardSegue+DE.h in Headers */,
+				349002561DAD9CDB007E5B5F /* DE.h in Headers */,
+				3490025A1DAD9CDB007E5B5F /* DELog.h in Headers */,
+				3490025E1DAD9CDB007E5B5F /* UIControl+DE.h in Headers */,
+				349002581DAD9CDB007E5B5F /* DEEvent.h in Headers */,
+				3490025C1DAD9CDB007E5B5F /* NSData+GZIP.h in Headers */,
 				349002431DAD9C99007E5B5F /* DEagle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3490025F1DAD9CDB007E5B5F /* UIControl+DE.m in Sources */,
+				3490025D1DAD9CDB007E5B5F /* NSData+GZIP.m in Sources */,
+				3490025B1DAD9CDB007E5B5F /* DELog.m in Sources */,
+				349002571DAD9CDB007E5B5F /* DE.m in Sources */,
+				349002591DAD9CDB007E5B5F /* DEEvent.m in Sources */,
+				349002611DAD9CDB007E5B5F /* UIStoryboardSegue+DE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

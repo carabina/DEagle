@@ -22,7 +22,7 @@
 
 #define URL_PREFIX          @"https://"
 
-#define DEV_SERVER_URL      @"192.168.1.100"//@"127.0.0.1"
+#define DEV_SERVER_URL      @"deagle.herokuapp.com"//@"192.168.1.100"//@"127.0.0.1"
 #define DEV_URL_PORT        @"2001"
 
 #define PROD_SERVER_URL     @"127.0.0.1"
@@ -265,7 +265,8 @@
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@:%@/%@",URL_PREFIX,SERVER_URL,SERVER_PORT,UPLOAD_EVENTS_API]]];
+//    [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@:%@/%@",URL_PREFIX,SERVER_URL,SERVER_PORT,UPLOAD_EVENTS_API]]];
+    [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@",URL_PREFIX,SERVER_URL,UPLOAD_EVENTS_API]]];
     
     [request setHTTPMethod:@"POST"];
     [request setValue:postLength forHTTPHeaderField:@"Content-Length"];

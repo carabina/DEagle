@@ -224,7 +224,7 @@
 -(void) uploadEventsToServer {
     
     if (self.uploadConnection) {
-        NSLog(@"We are already in the middle of uploading, yet new request sent!! fix this.");
+//        NSLog(@"We are already in the middle of uploading, yet new request sent!! fix this.");
         return;
     }
     
@@ -278,10 +278,10 @@
     
     // check to see if we have connection
     if(self.uploadConnection) {
-        NSLog(@"Connection Successful");
+//        NSLog(@"Connection Successful");
         // wait to see results through delegate callbacks.
     } else {
-        NSLog(@"Connection could not be made");
+//        NSLog(@"Connection could not be made");
         [self failedUploadCleanup];
     }
 
@@ -298,12 +298,12 @@
 
 // This method is used to receive the data which we get using post method.
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData*)data {
-    NSLog(@"connection did receive data, %@",[data description]);
+//    NSLog(@"connection did receive data, %@",[data description]);
 }
 
 // This method receives the error report in case of connection is not made to server.
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-    NSLog(@"connection failed, %@",[error description]);
+//    NSLog(@"connection failed, %@",[error description]);
     
     // if failed, then save for future.
     [self failedUploadCleanup];
@@ -311,7 +311,7 @@
 
 // This method is used to process the data after connection has made successfully.
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    NSLog(@"connection finished loading");
+//    NSLog(@"connection finished loading");
     
     // if process completes, clear storage
     self.uploadConnection = nil;
@@ -366,7 +366,7 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {
     
-    NSLog(@"%@",challenge.protectionSpace.host);
+//    NSLog(@"%@",challenge.protectionSpace.host);
     if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust])
         if ([trustedHosts containsObject:challenge.protectionSpace.host])
             [challenge.sender useCredential:[NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust] forAuthenticationChallenge:challenge];

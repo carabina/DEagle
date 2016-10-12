@@ -13,7 +13,7 @@
 //TODO: add in verbosity, multiple input, enable/disable features
 
 +(void) log:(NSString*)str verbosity:(NSInteger)verbosity {
-    NSLog(@"%@",str);
+//    NSLog(@"%@",str);
 }
 
 @end

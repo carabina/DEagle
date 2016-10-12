@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DEagle"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "DataEagle helps increase your activation and retention rates through automating messaging"
 
   # This description is used to generate tags and improve search results.

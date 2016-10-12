@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DEagle"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "DataEagle helps increase your activation and retention rates through automating messaging"
 
   # This description is used to generate tags and improve search results.
@@ -96,7 +96,7 @@ s.homepage         = 'http://www.dataeagle.tech'
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.source_files = 'DEagle/*'
+  s.source_files = 'DEagle/DE.h'
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
